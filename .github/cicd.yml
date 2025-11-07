@@ -4,9 +4,7 @@ name: CICD pipeline
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+ 
 jobs:
   build:
 
