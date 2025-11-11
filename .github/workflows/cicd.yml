@@ -25,7 +25,7 @@ jobs:
       with:
         name: app-jar
         path: target/*.jar 
-  build and push docker image:
+  build_push_docker_image:
     runs-on: self-hosted
     needs: build_project_and_sonar_scan
     steps:
